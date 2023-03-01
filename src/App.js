@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter >
         
         <Routes>
-        <Route path = '/faleconosco'  element={<FaleConosco/>}/>
+        <Route path = '/'  element={<FaleConosco/>}/>
         
         </Routes>
        {/* <Footer/> */}
