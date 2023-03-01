@@ -140,11 +140,12 @@ function FaleConosco() {
           }
 
           if (!!error) {
-            console.info(error);
+            alert(error);
           }
         }}
         style={{ width: '100%' }}
-      />
+        delay={300}
+  facingMode="environment"/>
       <p>{data}</p>
 
       {/* </div>  */}
