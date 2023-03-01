@@ -145,7 +145,7 @@ function FaleConosco() {
         }}
         style={{ width: '100%' }}
         delay={300}
-        facingMode="environment"
+        constraints={ {facingMode: 'environment'} }
   />
       <p>{data}</p>
 
