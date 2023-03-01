@@ -28,7 +28,7 @@ function FaleConosco() {
  
   const Task = async (cod) => {
   
-    await axios.get(` http://localhost:8090/java/codauxiliar/${cod}`).then(Response => {
+    await axios.get(` http://192.168.2.181:8090/java/codauxiliar/${cod}`).then(Response => {
       setCodprod(Response.data.codprod);
       setUnidade(Response.data.unidade);
       setProdutopai(Response.data.produtopai);
