@@ -140,7 +140,7 @@ function FaleConosco() {
           }
 
           if (!!error) {
-            alert(error);
+            console.info(error);
           }
         }}
         style={{ width: '100%' }}
